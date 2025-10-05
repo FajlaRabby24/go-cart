@@ -2,6 +2,7 @@
 import { assets } from "@/assets/assets";
 import { ArrowRightIcon, ChevronRightIcon } from "lucide-react";
 import Image from "next/image";
+import CategoriesMarquee from "./CategoriesMarquee";
 
 const Hero = () => {
   const currency = process.env.NEXT_PUBLIC_CURRENCY_SYMBOL || "$";
@@ -71,6 +72,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <CategoriesMarquee />
     </div>
   );
 };
